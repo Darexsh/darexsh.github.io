@@ -1343,20 +1343,6 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    },
-    {
-      "id": "refresh_morphe",
-      "displayName": "Refresh Morphe",
-      "packageName": "com.refresh.morphe",
-      "section": "morphe",
-      "enabled": true,
-      "source": {
-        "type": "github_releases",
-        "apiUrl": ""
-      },
-      "match": {
-        "strategy": "prefix_abi_autobuild"
-      }
     }
   ]
 }
