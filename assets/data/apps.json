@@ -16,7 +16,7 @@
         "fileRegex": "^youtube-morphe-v([0-9.]+)-all\\.apk$",
         "versionGroup": 1
       }
-    }    ,
+    },
     {
       "id": "youtube_revanced",
       "displayName": "YouTube ReVanced",
@@ -32,7 +32,7 @@
         "fileRegex": "^youtube-revanced-v([0-9.]+)-all\\.apk$",
         "versionGroup": 1
       }
-    }    ,
+    },
     {
       "id": "youtube_music_morphe",
       "displayName": "YouTube Music Morphe",
@@ -49,7 +49,7 @@
         "versionGroup": 1,
         "abiGroup": 2
       }
-    }    ,
+    },
     {
       "id": "youtube_music_revanced",
       "displayName": "YouTube Music ReVanced",
@@ -66,7 +66,7 @@
         "versionGroup": 1,
         "abiGroup": 2
       }
-    }    ,
+    },
     {
       "id": "google_photos_revanced",
       "displayName": "Google Photos ReVanced",
@@ -83,7 +83,7 @@
         "versionGroup": 1,
         "abiGroup": 2
       }
-    }    ,
+    },
     {
       "id": "google_photos_morphe",
       "displayName": "Google Photos Morphe",
@@ -97,7 +97,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "reddit_morphe",
       "displayName": "Reddit Morphe",
@@ -113,7 +113,7 @@
         "fileRegex": "^reddit-morphe-v([0-9.]+)-all\\.apk$",
         "versionGroup": 1
       }
-    }    ,
+    },
     {
       "id": "twitter_morphe",
       "displayName": "Twitter Morphe",
@@ -129,7 +129,7 @@
         "strategy": "twitter_piko_variant",
         "filenamePrefix": "twitter-piko-v"
       }
-    }    ,
+    },
     {
       "id": "twitter_material_you_morphe",
       "displayName": "Twitter Material You Morphe",
@@ -145,7 +145,7 @@
         "strategy": "twitter_piko_variant",
         "filenamePrefix": "twitter-piko-material-you-v"
       }
-    }    ,
+    },
     {
       "id": "x_morphe",
       "displayName": "X Morphe",
@@ -161,7 +161,7 @@
         "strategy": "twitter_piko_variant",
         "filenamePrefix": "x-piko-v"
       }
-    }    ,
+    },
     {
       "id": "x_material_you_morphe",
       "displayName": "X Material You Morphe",
@@ -177,7 +177,7 @@
         "strategy": "twitter_piko_variant",
         "filenamePrefix": "x-piko-material-you-v"
       }
-    }    ,
+    },
     {
       "id": "spotify_revanced",
       "displayName": "Spotify ReVanced",
@@ -193,7 +193,7 @@
         "fileRegex": "^spotify-revanced-v([0-9.]+)-all\\.apk$",
         "versionGroup": 1
       }
-    }    ,
+    },
     {
       "id": "microg_revanced",
       "displayName": "microG ReVanced",
@@ -208,7 +208,7 @@
       "match": {
         "strategy": "microg_revanced_signed"
       }
-    }    ,
+    },
     {
       "id": "microg_morphe",
       "displayName": "microG Morphe",
@@ -223,7 +223,7 @@
       "match": {
         "strategy": "microg_morphe_apk"
       }
-    }    ,
+    },
     {
       "id": "aiocal_morphe",
       "displayName": "Aiocal Morphe",
@@ -237,7 +237,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "avocards_morphe",
       "displayName": "Avocards Morphe",
@@ -251,7 +251,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "bussu_morphe",
       "displayName": "Bussu Morphe",
@@ -265,7 +265,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "cake_morphe",
       "displayName": "Cake Morphe",
@@ -279,7 +279,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "calistree_morphe",
       "displayName": "Calistree Morphe",
@@ -293,7 +293,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "camscanner_morphe",
       "displayName": "Camscanner Morphe",
@@ -307,7 +307,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "chargeprice_morphe",
       "displayName": "Chargeprice Morphe",
@@ -321,7 +321,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "crunchyroll_morphe",
       "displayName": "Crunchyroll Morphe",
@@ -335,7 +335,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "dialer_morphe",
       "displayName": "Dialer Morphe",
@@ -349,7 +349,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "disney_plus_morphe",
       "displayName": "Disney Plus Morphe",
@@ -363,7 +363,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "duolingo_morphe",
       "displayName": "Duolingo Morphe",
@@ -377,7 +377,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "earphone_morphe",
       "displayName": "Earphone Morphe",
@@ -391,7 +391,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "eggbun_morphe",
       "displayName": "Eggbun Morphe",
@@ -405,7 +405,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "facebook_morphe",
       "displayName": "Facebook Morphe",
@@ -419,7 +419,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "flatastic_morphe",
       "displayName": "Flatastic Morphe",
@@ -433,7 +433,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "fotmob_morphe",
       "displayName": "Fotmob Morphe",
@@ -447,7 +447,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "fxfile_morphe",
       "displayName": "Fxfile Morphe",
@@ -461,7 +461,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "gamehub_morphe",
       "displayName": "Gamehub Morphe",
@@ -475,7 +475,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "geocaching_morphe",
       "displayName": "Geocaching Morphe",
@@ -489,7 +489,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "google_news_morphe",
       "displayName": "Google News Morphe",
@@ -503,7 +503,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "hellochinese_morphe",
       "displayName": "Hellochinese Morphe",
@@ -517,7 +517,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "hevy_morphe",
       "displayName": "Hevy Morphe",
@@ -531,7 +531,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "ibs_paint_morphe",
       "displayName": "IBS Paint Morphe",
@@ -545,7 +545,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "icon_pack_studio_morphe",
       "displayName": "Icon Pack Studio Morphe",
@@ -559,7 +559,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "icon_packer_morphe",
       "displayName": "Icon Packer Morphe",
@@ -573,7 +573,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "instagram_morphe",
       "displayName": "Instagram Morphe",
@@ -587,7 +587,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "kakaotalk_morphe",
       "displayName": "Kakaotalk Morphe",
@@ -601,7 +601,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "kicker_morphe",
       "displayName": "Kicker Morphe",
@@ -615,7 +615,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "komoot_morphe",
       "displayName": "Komoot Morphe",
@@ -629,7 +629,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "letterboxd_morphe",
       "displayName": "Letterboxd Morphe",
@@ -643,7 +643,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "lingory_morphe",
       "displayName": "Lingory Morphe",
@@ -657,7 +657,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "lyfta_morphe",
       "displayName": "Lyfta Morphe",
@@ -671,7 +671,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "macrofactor_morphe",
       "displayName": "Macrofactor Morphe",
@@ -685,7 +685,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "macrofactor_workout_morphe",
       "displayName": "Macrofactor Workout Morphe",
@@ -699,7 +699,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "mapy_morphe",
       "displayName": "Mapy Morphe",
@@ -713,7 +713,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "meme_morphe",
       "displayName": "Meme Morphe",
@@ -727,7 +727,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "messenger_morphe",
       "displayName": "Messenger Morphe",
@@ -741,7 +741,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "mimo_morphe",
       "displayName": "Mimo Morphe",
@@ -755,7 +755,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "mirinae_morphe",
       "displayName": "Mirinae Morphe",
@@ -769,7 +769,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "mladinska_morphe",
       "displayName": "Mladinska Morphe",
@@ -783,7 +783,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "my_expenses_morphe",
       "displayName": "My Expenses Morphe",
@@ -797,7 +797,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "myfitnesspal_morphe",
       "displayName": "Myfitnesspal Morphe",
@@ -811,7 +811,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "niagara_morphe",
       "displayName": "Niagara Morphe",
@@ -825,7 +825,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "nomone_morphe",
       "displayName": "Nomone Morphe",
@@ -839,7 +839,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "nova_morphe",
       "displayName": "Nova Morphe",
@@ -853,7 +853,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "number_morphe",
       "displayName": "Number Morphe",
@@ -867,7 +867,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "pandora_morphe",
       "displayName": "Pandora Morphe",
@@ -881,7 +881,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "park4night_morphe",
       "displayName": "Park4night Morphe",
@@ -895,7 +895,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "photomath_morphe",
       "displayName": "Photomath Morphe",
@@ -909,7 +909,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "pixiv_morphe",
       "displayName": "Pixiv Morphe",
@@ -923,7 +923,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "podcast_morphe",
       "displayName": "Podcast Morphe",
@@ -937,7 +937,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "pokecardex_morphe",
       "displayName": "Pokecardex Morphe",
@@ -951,7 +951,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "prime_video_morphe",
       "displayName": "Prime Video Morphe",
@@ -965,7 +965,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "proton_mail_morphe",
       "displayName": "Proton Mail Morphe",
@@ -979,7 +979,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "proton_vpn_morphe",
       "displayName": "Proton Vpn Morphe",
@@ -993,7 +993,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "pydroid_morphe",
       "displayName": "Pydroid Morphe",
@@ -1007,7 +1007,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "rar_morphe",
       "displayName": "Rar Morphe",
@@ -1021,7 +1021,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "smart_launcher_morphe",
       "displayName": "Smart Launcher Morphe",
@@ -1035,7 +1035,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "snorelab_morphe",
       "displayName": "Snorelab Morphe",
@@ -1049,7 +1049,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "sofascore_morphe",
       "displayName": "Sofascore Morphe",
@@ -1063,7 +1063,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "solid_morphe",
       "displayName": "Solid Morphe",
@@ -1077,7 +1077,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "soundcloud_morphe",
       "displayName": "Soundcloud Morphe",
@@ -1091,7 +1091,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "splitwise_morphe",
       "displayName": "Splitwise Morphe",
@@ -1105,7 +1105,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "strava_morphe",
       "displayName": "Strava Morphe",
@@ -1119,7 +1119,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "tasker_morphe",
       "displayName": "Tasker Morphe",
@@ -1133,7 +1133,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "telegram_morphe",
       "displayName": "Telegram Morphe",
@@ -1147,7 +1147,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "teuida_morphe",
       "displayName": "Teuida Morphe",
@@ -1161,7 +1161,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "threads_morphe",
       "displayName": "Threads Morphe",
@@ -1175,7 +1175,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "ticktick_morphe",
       "displayName": "Ticktick Morphe",
@@ -1189,7 +1189,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "tiktok_morphe",
       "displayName": "TikTok Morphe",
@@ -1203,7 +1203,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "trakt_morphe",
       "displayName": "Trakt Morphe",
@@ -1217,7 +1217,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "ttmik_stories_morphe",
       "displayName": "TTMIK Stories Morphe",
@@ -1231,7 +1231,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "tumblr_morphe",
       "displayName": "Tumblr Morphe",
@@ -1245,7 +1245,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "ventusky_morphe",
       "displayName": "Ventusky Morphe",
@@ -1259,7 +1259,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "wallcraft_morphe",
       "displayName": "Wallcraft Morphe",
@@ -1273,7 +1273,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "webster_morphe",
       "displayName": "Webster Morphe",
@@ -1287,7 +1287,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "windy_morphe",
       "displayName": "Windy Morphe",
@@ -1301,7 +1301,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "wps_office_morphe",
       "displayName": "WPS Office Morphe",
@@ -1315,7 +1315,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "xodo_morphe",
       "displayName": "Xodo Morphe",
@@ -1329,7 +1329,7 @@
       "match": {
         "strategy": "prefix_abi_autobuild"
       }
-    }    ,
+    },
     {
       "id": "xrecorder_morphe",
       "displayName": "Xrecorder Morphe",
@@ -1339,6 +1339,20 @@
       "source": {
         "type": "github_releases",
         "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    },
+    {
+      "id": "test",
+      "displayName": "Test App",
+      "packageName": "com.test.app",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": ""
       },
       "match": {
         "strategy": "prefix_abi_autobuild"
