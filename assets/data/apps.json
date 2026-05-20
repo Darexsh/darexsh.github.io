@@ -1,0 +1,1348 @@
+{
+  "schemaVersion": 1,
+  "apps": [
+    {
+      "id": "youtube_morphe",
+      "displayName": "YouTube Morphe",
+      "packageName": "app.morphe.android.youtube",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/j-hc/revanced-magisk-module/releases"
+      },
+      "match": {
+        "strategy": "regex_all_apk",
+        "fileRegex": "^youtube-morphe-v([0-9.]+)-all\\.apk$",
+        "versionGroup": 1
+      }
+    }    ,
+    {
+      "id": "youtube_revanced",
+      "displayName": "YouTube ReVanced",
+      "packageName": "app.revanced.android.youtube",
+      "section": "revanced",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/j-hc/revanced-magisk-module/releases"
+      },
+      "match": {
+        "strategy": "regex_all_apk",
+        "fileRegex": "^youtube-revanced-v([0-9.]+)-all\\.apk$",
+        "versionGroup": 1
+      }
+    }    ,
+    {
+      "id": "youtube_music_morphe",
+      "displayName": "YouTube Music Morphe",
+      "packageName": "app.morphe.android.apps.youtube.music",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/j-hc/revanced-magisk-module/releases"
+      },
+      "match": {
+        "strategy": "regex_abi_apk",
+        "fileRegex": "^music-morphe-v([0-9.]+)-(arm64-v8a|arm-v7a)\\.apk$",
+        "versionGroup": 1,
+        "abiGroup": 2
+      }
+    }    ,
+    {
+      "id": "youtube_music_revanced",
+      "displayName": "YouTube Music ReVanced",
+      "packageName": "app.revanced.android.apps.youtube.music",
+      "section": "revanced",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/j-hc/revanced-magisk-module/releases"
+      },
+      "match": {
+        "strategy": "regex_abi_apk",
+        "fileRegex": "^music-revanced-v([0-9.]+)-(arm64-v8a|arm-v7a)\\.apk$",
+        "versionGroup": 1,
+        "abiGroup": 2
+      }
+    }    ,
+    {
+      "id": "google_photos_revanced",
+      "displayName": "Google Photos ReVanced",
+      "packageName": "app.revanced.android.photos",
+      "section": "revanced",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/j-hc/revanced-magisk-module/releases"
+      },
+      "match": {
+        "strategy": "regex_abi_apk",
+        "fileRegex": "^googlephotos-revanced-v([0-9.]+)-(arm64-v8a|arm-v7a)\\.apk$",
+        "versionGroup": 1,
+        "abiGroup": 2
+      }
+    }    ,
+    {
+      "id": "google_photos_morphe",
+      "displayName": "Google Photos Morphe",
+      "packageName": "com.google.android.apps.photos",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "reddit_morphe",
+      "displayName": "Reddit Morphe",
+      "packageName": "com.reddit.frontpage",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/j-hc/revanced-magisk-module/releases"
+      },
+      "match": {
+        "strategy": "regex_all_apk",
+        "fileRegex": "^reddit-morphe-v([0-9.]+)-all\\.apk$",
+        "versionGroup": 1
+      }
+    }    ,
+    {
+      "id": "twitter_morphe",
+      "displayName": "Twitter Morphe",
+      "packageName": "com.twitter.android",
+      "section": "morphe",
+      "enabled": true,
+      "conflictGroup": "twitter",
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/crimera/twitter-apk/releases"
+      },
+      "match": {
+        "strategy": "twitter_piko_variant",
+        "filenamePrefix": "twitter-piko-v"
+      }
+    }    ,
+    {
+      "id": "twitter_material_you_morphe",
+      "displayName": "Twitter Material You Morphe",
+      "packageName": "com.twitter.android",
+      "section": "morphe",
+      "enabled": true,
+      "conflictGroup": "twitter",
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/crimera/twitter-apk/releases"
+      },
+      "match": {
+        "strategy": "twitter_piko_variant",
+        "filenamePrefix": "twitter-piko-material-you-v"
+      }
+    }    ,
+    {
+      "id": "x_morphe",
+      "displayName": "X Morphe",
+      "packageName": "com.twitter.android",
+      "section": "morphe",
+      "enabled": true,
+      "conflictGroup": "twitter",
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/crimera/twitter-apk/releases"
+      },
+      "match": {
+        "strategy": "twitter_piko_variant",
+        "filenamePrefix": "x-piko-v"
+      }
+    }    ,
+    {
+      "id": "x_material_you_morphe",
+      "displayName": "X Material You Morphe",
+      "packageName": "com.twitter.android",
+      "section": "morphe",
+      "enabled": true,
+      "conflictGroup": "twitter",
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/crimera/twitter-apk/releases"
+      },
+      "match": {
+        "strategy": "twitter_piko_variant",
+        "filenamePrefix": "x-piko-material-you-v"
+      }
+    }    ,
+    {
+      "id": "spotify_revanced",
+      "displayName": "Spotify ReVanced",
+      "packageName": "com.spotify.music",
+      "section": "revanced",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/j-hc/revanced-magisk-module/releases"
+      },
+      "match": {
+        "strategy": "regex_all_apk",
+        "fileRegex": "^spotify-revanced-v([0-9.]+)-all\\.apk$",
+        "versionGroup": 1
+      }
+    }    ,
+    {
+      "id": "microg_revanced",
+      "displayName": "microG ReVanced",
+      "packageName": "app.revanced.android.gms",
+      "section": "revanced",
+      "enabled": true,
+      "conflictGroup": "microg",
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/ReVanced/GmsCore/releases"
+      },
+      "match": {
+        "strategy": "microg_revanced_signed"
+      }
+    }    ,
+    {
+      "id": "microg_morphe",
+      "displayName": "microG Morphe",
+      "packageName": "app.revanced.android.gms",
+      "section": "morphe",
+      "enabled": true,
+      "conflictGroup": "microg",
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/MorpheApp/MicroG-RE/releases"
+      },
+      "match": {
+        "strategy": "microg_morphe_apk"
+      }
+    }    ,
+    {
+      "id": "aiocal_morphe",
+      "displayName": "Aiocal Morphe",
+      "packageName": "all.in.one.calculator",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "avocards_morphe",
+      "displayName": "Avocards Morphe",
+      "packageName": "com.avocards",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "bussu_morphe",
+      "displayName": "Bussu Morphe",
+      "packageName": "com.busuu.android.enc",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "cake_morphe",
+      "displayName": "Cake Morphe",
+      "packageName": "me.mycake",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "calistree_morphe",
+      "displayName": "Calistree Morphe",
+      "packageName": "com.calistree.calistree",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "camscanner_morphe",
+      "displayName": "Camscanner Morphe",
+      "packageName": "com.intsig.camscanner",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "chargeprice_morphe",
+      "displayName": "Chargeprice Morphe",
+      "packageName": "fr.chargeprice.app",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "crunchyroll_morphe",
+      "displayName": "Crunchyroll Morphe",
+      "packageName": "com.crunchyroll.crunchyroid",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "dialer_morphe",
+      "displayName": "Dialer Morphe",
+      "packageName": "com.google.android.dialer",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "disney_plus_morphe",
+      "displayName": "Disney Plus Morphe",
+      "packageName": "com.disney.disneyplus",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "duolingo_morphe",
+      "displayName": "Duolingo Morphe",
+      "packageName": "com.duolingo",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "earphone_morphe",
+      "displayName": "Earphone Morphe",
+      "packageName": "com.wixsite.ut_app.utalarm",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "eggbun_morphe",
+      "displayName": "Eggbun Morphe",
+      "packageName": "kr.eggbun.eggconvo",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "facebook_morphe",
+      "displayName": "Facebook Morphe",
+      "packageName": "com.facebook.katana",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "flatastic_morphe",
+      "displayName": "Flatastic Morphe",
+      "packageName": "com.flatastic.app",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "fotmob_morphe",
+      "displayName": "Fotmob Morphe",
+      "packageName": "com.mobilefootie.wc2010",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "fxfile_morphe",
+      "displayName": "Fxfile Morphe",
+      "packageName": "nextapp.fx",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "gamehub_morphe",
+      "displayName": "Gamehub Morphe",
+      "packageName": "com.xiaoji.egggame",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "geocaching_morphe",
+      "displayName": "Geocaching Morphe",
+      "packageName": "com.groundspeak.geocaching.intro",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "google_news_morphe",
+      "displayName": "Google News Morphe",
+      "packageName": "com.google.android.apps.magazines",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "hellochinese_morphe",
+      "displayName": "Hellochinese Morphe",
+      "packageName": "com.hellochinese",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "hevy_morphe",
+      "displayName": "Hevy Morphe",
+      "packageName": "com.hevy",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "ibs_paint_morphe",
+      "displayName": "IBS Paint Morphe",
+      "packageName": "jp.ne.ibis.ibispaintx.app",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "icon_pack_studio_morphe",
+      "displayName": "Icon Pack Studio Morphe",
+      "packageName": "ginlemon.iconpackstudio",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "icon_packer_morphe",
+      "displayName": "Icon Packer Morphe",
+      "packageName": "cn.ommiao.iconpacker",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "instagram_morphe",
+      "displayName": "Instagram Morphe",
+      "packageName": "com.instagram.android",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "kakaotalk_morphe",
+      "displayName": "Kakaotalk Morphe",
+      "packageName": "com.kakao.talk",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "kicker_morphe",
+      "displayName": "Kicker Morphe",
+      "packageName": "com.netbiscuits.kicker",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "komoot_morphe",
+      "displayName": "Komoot Morphe",
+      "packageName": "de.komoot.android",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "letterboxd_morphe",
+      "displayName": "Letterboxd Morphe",
+      "packageName": "com.letterboxd.letterboxd",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "lingory_morphe",
+      "displayName": "Lingory Morphe",
+      "packageName": "org.languageapp.lingory",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "lyfta_morphe",
+      "displayName": "Lyfta Morphe",
+      "packageName": "com.lyfta",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "macrofactor_morphe",
+      "displayName": "Macrofactor Morphe",
+      "packageName": "com.sbs.diet",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "macrofactor_workout_morphe",
+      "displayName": "Macrofactor Workout Morphe",
+      "packageName": "com.sbs.train",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "mapy_morphe",
+      "displayName": "Mapy Morphe",
+      "packageName": "cz.seznam.mapy",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "meme_morphe",
+      "displayName": "Meme Morphe",
+      "packageName": "com.zombodroid.MemeGenerator",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "messenger_morphe",
+      "displayName": "Messenger Morphe",
+      "packageName": "com.facebook.orca",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "mimo_morphe",
+      "displayName": "Mimo Morphe",
+      "packageName": "com.getmimo",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "mirinae_morphe",
+      "displayName": "Mirinae Morphe",
+      "packageName": "com.mirinae.mirinae",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "mladinska_morphe",
+      "displayName": "Mladinska Morphe",
+      "packageName": "com.mladinska.mkplus",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "my_expenses_morphe",
+      "displayName": "My Expenses Morphe",
+      "packageName": "org.totschnig.myexpenses",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "myfitnesspal_morphe",
+      "displayName": "Myfitnesspal Morphe",
+      "packageName": "com.myfitnesspal.android",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "niagara_morphe",
+      "displayName": "Niagara Morphe",
+      "packageName": "bitpit.launcher",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "nomone_morphe",
+      "displayName": "Nomone Morphe",
+      "packageName": "nom.vrd",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "nova_morphe",
+      "displayName": "Nova Morphe",
+      "packageName": "com.teslacoilsw.launcher",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "number_morphe",
+      "displayName": "Number Morphe",
+      "packageName": "com.pryshedko.mtisland",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "pandora_morphe",
+      "displayName": "Pandora Morphe",
+      "packageName": "com.pandora.android",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "park4night_morphe",
+      "displayName": "Park4night Morphe",
+      "packageName": "fr.tramb.park4night",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "photomath_morphe",
+      "displayName": "Photomath Morphe",
+      "packageName": "com.microblink.photomath",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "pixiv_morphe",
+      "displayName": "Pixiv Morphe",
+      "packageName": "jp.pxv.android",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "podcast_morphe",
+      "displayName": "Podcast Morphe",
+      "packageName": "com.bambuna.podcastaddict",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "pokecardex_morphe",
+      "displayName": "Pokecardex Morphe",
+      "packageName": "com.application.pokecardex",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "prime_video_morphe",
+      "displayName": "Prime Video Morphe",
+      "packageName": "com.amazon.avod.thirdpartyclient",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "proton_mail_morphe",
+      "displayName": "Proton Mail Morphe",
+      "packageName": "ch.protonmail.android",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "proton_vpn_morphe",
+      "displayName": "Proton Vpn Morphe",
+      "packageName": "ch.protonvpn.android",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "pydroid_morphe",
+      "displayName": "Pydroid Morphe",
+      "packageName": "ru.iiec.pydroid3",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "rar_morphe",
+      "displayName": "Rar Morphe",
+      "packageName": "com.rarlab.rar",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "smart_launcher_morphe",
+      "displayName": "Smart Launcher Morphe",
+      "packageName": "ginlemon.flowerfree",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "snorelab_morphe",
+      "displayName": "Snorelab Morphe",
+      "packageName": "com.snorelab.app",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "sofascore_morphe",
+      "displayName": "Sofascore Morphe",
+      "packageName": "com.sofascore.results",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "solid_morphe",
+      "displayName": "Solid Morphe",
+      "packageName": "pl.solidexplorer2",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "soundcloud_morphe",
+      "displayName": "Soundcloud Morphe",
+      "packageName": "com.soundcloud.android",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "splitwise_morphe",
+      "displayName": "Splitwise Morphe",
+      "packageName": "com.Splitwise.SplitwiseMobile",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "strava_morphe",
+      "displayName": "Strava Morphe",
+      "packageName": "com.strava",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "tasker_morphe",
+      "displayName": "Tasker Morphe",
+      "packageName": "net.dinglisch.android.taskerm",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "telegram_morphe",
+      "displayName": "Telegram Morphe",
+      "packageName": "org.telegram.messenger.web",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "teuida_morphe",
+      "displayName": "Teuida Morphe",
+      "packageName": "net.teuida.teuida",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "threads_morphe",
+      "displayName": "Threads Morphe",
+      "packageName": "com.instagram.barcelona",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "ticktick_morphe",
+      "displayName": "Ticktick Morphe",
+      "packageName": "com.ticktick.task",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "tiktok_morphe",
+      "displayName": "TikTok Morphe",
+      "packageName": "com.zhiliaoapp.musically",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "trakt_morphe",
+      "displayName": "Trakt Morphe",
+      "packageName": "tv.trakt.trakt",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "ttmik_stories_morphe",
+      "displayName": "TTMIK Stories Morphe",
+      "packageName": "app.ttmikstories.android",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "tumblr_morphe",
+      "displayName": "Tumblr Morphe",
+      "packageName": "com.tumblr",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "ventusky_morphe",
+      "displayName": "Ventusky Morphe",
+      "packageName": "cz.ackee.ventusky",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "wallcraft_morphe",
+      "displayName": "Wallcraft Morphe",
+      "packageName": "com.wallpaperscraft.wallpaper",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "webster_morphe",
+      "displayName": "Webster Morphe",
+      "packageName": "com.merriamwebster",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "windy_morphe",
+      "displayName": "Windy Morphe",
+      "packageName": "com.windyty.android",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "wps_office_morphe",
+      "displayName": "WPS Office Morphe",
+      "packageName": "cn.wps.moffice_eng",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "xodo_morphe",
+      "displayName": "Xodo Morphe",
+      "packageName": "com.xodo.pdf.reader",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }    ,
+    {
+      "id": "xrecorder_morphe",
+      "displayName": "Xrecorder Morphe",
+      "packageName": "videoeditor.videorecorder.screenrecorder",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    }
+  ]
+}
