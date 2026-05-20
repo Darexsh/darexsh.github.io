@@ -407,20 +407,6 @@
       }
     },
     {
-      "id": "facebook_morphe",
-      "displayName": "Facebook Morphe",
-      "packageName": "com.facebook.katana",
-      "section": "morphe",
-      "enabled": true,
-      "source": {
-        "type": "github_releases",
-        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
-      },
-      "match": {
-        "strategy": "prefix_abi_autobuild"
-      }
-    },
-    {
       "id": "flatastic_morphe",
       "displayName": "Flatastic Morphe",
       "packageName": "com.flatastic.app",
@@ -578,20 +564,6 @@
       "id": "instagram_morphe",
       "displayName": "Instagram Morphe",
       "packageName": "com.instagram.android",
-      "section": "morphe",
-      "enabled": true,
-      "source": {
-        "type": "github_releases",
-        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
-      },
-      "match": {
-        "strategy": "prefix_abi_autobuild"
-      }
-    },
-    {
-      "id": "kakaotalk_morphe",
-      "displayName": "Kakaotalk Morphe",
-      "packageName": "com.kakao.talk",
       "section": "morphe",
       "enabled": true,
       "source": {
