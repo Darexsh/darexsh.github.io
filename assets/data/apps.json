@@ -1345,9 +1345,9 @@
       }
     },
     {
-      "id": "test",
-      "displayName": "Test App",
-      "packageName": "com.test.app",
+      "id": "refresh_morphe",
+      "displayName": "Refresh Morphe",
+      "packageName": "com.refresh.morphe",
       "section": "morphe",
       "enabled": true,
       "source": {
