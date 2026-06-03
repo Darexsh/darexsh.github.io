@@ -239,6 +239,20 @@
       }
     },
     {
+      "id": "alarmo_morphe",
+      "displayName": "Alarmo Morphe",
+      "packageName": "com.bytesong.missionalarm",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    },
+    {
       "id": "avocards_morphe",
       "displayName": "Avocards Morphe",
       "packageName": "com.avocards",
@@ -337,9 +351,37 @@
       }
     },
     {
+      "id": "crex_morphe",
+      "displayName": "Crex Morphe",
+      "packageName": "in.cricketexchange.app.cricketexchange",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    },
+    {
       "id": "dialer_morphe",
       "displayName": "Dialer Morphe",
       "packageName": "com.google.android.dialer",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    },
+    {
+      "id": "documentscanner_morphe",
+      "displayName": "Documentscanner Morphe",
+      "packageName": "com.cv.docscanner",
       "section": "morphe",
       "enabled": true,
       "source": {
@@ -407,6 +449,20 @@
       }
     },
     {
+      "id": "eyecon_morphe",
+      "displayName": "Eyecon Morphe",
+      "packageName": "com.eyecon.global",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    },
+    {
       "id": "flatastic_morphe",
       "displayName": "Flatastic Morphe",
       "packageName": "com.flatastic.app",
@@ -424,6 +480,20 @@
       "id": "fotmob_morphe",
       "displayName": "Fotmob Morphe",
       "packageName": "com.mobilefootie.wc2010",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    },
+    {
+      "id": "fing_morphe",
+      "displayName": "Fing Morphe",
+      "packageName": "com.overlook.android.fing",
       "section": "morphe",
       "enabled": true,
       "source": {
@@ -589,6 +659,20 @@
       }
     },
     {
+      "id": "kakaotalk_morphe",
+      "displayName": "Kakaotalk Morphe",
+      "packageName": "com.kakao.talk",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    },
+    {
       "id": "komoot_morphe",
       "displayName": "Komoot Morphe",
       "packageName": "de.komoot.android",
@@ -631,9 +715,37 @@
       }
     },
     {
+      "id": "lumina_morphe",
+      "displayName": "Lumina Morphe",
+      "packageName": "com.lumina.wallpapers",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    },
+    {
       "id": "lyfta_morphe",
       "displayName": "Lyfta Morphe",
       "packageName": "com.lyfta",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    },
+    {
+      "id": "macrodroid_morphe",
+      "displayName": "Macrodroid Morphe",
+      "packageName": "com.arlosoft.macrodroid",
       "section": "morphe",
       "enabled": true,
       "source": {
@@ -676,6 +788,20 @@
       "id": "mapy_morphe",
       "displayName": "Mapy Morphe",
       "packageName": "cz.seznam.mapy",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    },
+    {
+      "id": "mark_morphe",
+      "displayName": "Mark Morphe",
+      "packageName": "com.markOne.ss_app",
       "section": "morphe",
       "enabled": true,
       "source": {
@@ -939,6 +1065,20 @@
       }
     },
     {
+      "id": "prompter_morphe",
+      "displayName": "Prompter Morphe",
+      "packageName": "com.solid.teleprompter",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    },
+    {
       "id": "proton_mail_morphe",
       "displayName": "Proton Mail Morphe",
       "packageName": "ch.protonmail.android",
@@ -1093,6 +1233,20 @@
       }
     },
     {
+      "id": "starsense_morphe",
+      "displayName": "Starsense Morphe",
+      "packageName": "com.celestron.skybox",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    },
+    {
       "id": "tasker_morphe",
       "displayName": "Tasker Morphe",
       "packageName": "net.dinglisch.android.taskerm",
@@ -1191,6 +1345,20 @@
       }
     },
     {
+      "id": "truecaller_morphe",
+      "displayName": "Truecaller Morphe",
+      "packageName": "com.truecaller",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    },
+    {
       "id": "ttmik_stories_morphe",
       "displayName": "TTMIK Stories Morphe",
       "packageName": "app.ttmikstories.android",
@@ -1222,6 +1390,20 @@
       "id": "ventusky_morphe",
       "displayName": "Ventusky Morphe",
       "packageName": "cz.ackee.ventusky",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    },
+    {
+      "id": "vn_morphe",
+      "displayName": "Vn Morphe",
+      "packageName": "com.frontrow.vlog",
       "section": "morphe",
       "enabled": true,
       "source": {
