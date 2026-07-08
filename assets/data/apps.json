@@ -1443,6 +1443,20 @@
       }
     },
     {
+      "id": "windscribe_morphe",
+      "displayName": "Windscribe Morphe",
+      "packageName": "com.windscribe.vpn",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    },
+    {
       "id": "windy_morphe",
       "displayName": "Windy Morphe",
       "packageName": "com.windyty.android",
