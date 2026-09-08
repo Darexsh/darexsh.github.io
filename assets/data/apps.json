@@ -701,6 +701,20 @@
       }
     },
     {
+      "id": "lightroom_morphe",
+      "displayName": "Lightroom Morphe",
+      "packageName": "com.adobe.lrmobile",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    },
+    {
       "id": "lingory_morphe",
       "displayName": "Lingory Morphe",
       "packageName": "org.languageapp.lingory",
@@ -998,6 +1012,20 @@
       "id": "photomath_morphe",
       "displayName": "Photomath Morphe",
       "packageName": "com.microblink.photomath",
+      "section": "morphe",
+      "enabled": true,
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/RookieEnough/Morphe-AutoBuilds/releases"
+      },
+      "match": {
+        "strategy": "prefix_abi_autobuild"
+      }
+    },
+    {
+      "id": "pinterest_morphe",
+      "displayName": "Pinterest Morphe",
+      "packageName": "com.pinterest",
       "section": "morphe",
       "enabled": true,
       "source": {
