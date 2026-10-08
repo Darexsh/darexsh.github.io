@@ -95,36 +95,6 @@
       }
     },
     {
-      "id": "microg_specific",
-      "displayName": "microG specific",
-      "packageName": "app.revanced.android.gms",
-      "section": "morphe",
-      "enabled": true,
-      "conflictGroup": "microg",
-      "source": {
-        "type": "github_releases",
-        "apiUrl": "https://api.github.com/repos/MorpheApp/MicroG-RE/releases"
-      },
-      "match": {
-        "strategy": "microg_morphe_specific"
-      }
-    },
-    {
-      "id": "microg_specific_noicon",
-      "displayName": "microG No Icon",
-      "packageName": "app.revanced.android.gms",
-      "section": "morphe",
-      "enabled": true,
-      "conflictGroup": "microg",
-      "source": {
-        "type": "github_releases",
-        "apiUrl": "https://api.github.com/repos/MorpheApp/MicroG-RE/releases"
-      },
-      "match": {
-        "strategy": "microg_morphe_specific_noicon"
-      }
-    },
-    {
       "id": "aiocal_morphe",
       "displayName": "Aiocal Morphe",
       "packageName": "all.in.one.calculator",
