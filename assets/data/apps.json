@@ -18,22 +18,6 @@
       }
     },
     {
-      "id": "youtube_revanced",
-      "displayName": "YouTube ReVanced",
-      "packageName": "app.revanced.android.youtube",
-      "section": "revanced",
-      "enabled": true,
-      "source": {
-        "type": "github_releases",
-        "apiUrl": "https://api.github.com/repos/j-hc/revanced-magisk-module/releases"
-      },
-      "match": {
-        "strategy": "regex_all_apk",
-        "fileRegex": "^youtube-revanced-v([0-9.]+)-all\\.apk$",
-        "versionGroup": 1
-      }
-    },
-    {
       "id": "youtube_music_morphe",
       "displayName": "YouTube Music Morphe",
       "packageName": "app.morphe.android.apps.youtube.music",
@@ -46,40 +30,6 @@
       "match": {
         "strategy": "regex_abi_apk",
         "fileRegex": "^music-morphe-v([0-9.]+)-(arm64-v8a|arm-v7a)\\.apk$",
-        "versionGroup": 1,
-        "abiGroup": 2
-      }
-    },
-    {
-      "id": "youtube_music_revanced",
-      "displayName": "YouTube Music ReVanced",
-      "packageName": "app.revanced.android.apps.youtube.music",
-      "section": "revanced",
-      "enabled": true,
-      "source": {
-        "type": "github_releases",
-        "apiUrl": "https://api.github.com/repos/j-hc/revanced-magisk-module/releases"
-      },
-      "match": {
-        "strategy": "regex_abi_apk",
-        "fileRegex": "^music-revanced-v([0-9.]+)-(arm64-v8a|arm-v7a)\\.apk$",
-        "versionGroup": 1,
-        "abiGroup": 2
-      }
-    },
-    {
-      "id": "google_photos_revanced",
-      "displayName": "Google Photos ReVanced",
-      "packageName": "app.revanced.android.photos",
-      "section": "revanced",
-      "enabled": true,
-      "source": {
-        "type": "github_releases",
-        "apiUrl": "https://api.github.com/repos/j-hc/revanced-magisk-module/releases"
-      },
-      "match": {
-        "strategy": "regex_abi_apk",
-        "fileRegex": "^googlephotos-revanced-v([0-9.]+)-(arm64-v8a|arm-v7a)\\.apk$",
         "versionGroup": 1,
         "abiGroup": 2
       }
@@ -115,103 +65,8 @@
       }
     },
     {
-      "id": "twitter_morphe",
-      "displayName": "Twitter Morphe",
-      "packageName": "com.twitter.android",
-      "section": "morphe",
-      "enabled": true,
-      "conflictGroup": "twitter",
-      "source": {
-        "type": "github_releases",
-        "apiUrl": "https://api.github.com/repos/crimera/twitter-apk/releases"
-      },
-      "match": {
-        "strategy": "twitter_piko_variant",
-        "filenamePrefix": "twitter-piko-v"
-      }
-    },
-    {
-      "id": "twitter_material_you_morphe",
-      "displayName": "Twitter Material You Morphe",
-      "packageName": "com.twitter.android",
-      "section": "morphe",
-      "enabled": true,
-      "conflictGroup": "twitter",
-      "source": {
-        "type": "github_releases",
-        "apiUrl": "https://api.github.com/repos/crimera/twitter-apk/releases"
-      },
-      "match": {
-        "strategy": "twitter_piko_variant",
-        "filenamePrefix": "twitter-piko-material-you-v"
-      }
-    },
-    {
-      "id": "x_morphe",
-      "displayName": "X Morphe",
-      "packageName": "com.twitter.android",
-      "section": "morphe",
-      "enabled": true,
-      "conflictGroup": "twitter",
-      "source": {
-        "type": "github_releases",
-        "apiUrl": "https://api.github.com/repos/crimera/twitter-apk/releases"
-      },
-      "match": {
-        "strategy": "twitter_piko_variant",
-        "filenamePrefix": "x-piko-v"
-      }
-    },
-    {
-      "id": "x_material_you_morphe",
-      "displayName": "X Material You Morphe",
-      "packageName": "com.twitter.android",
-      "section": "morphe",
-      "enabled": true,
-      "conflictGroup": "twitter",
-      "source": {
-        "type": "github_releases",
-        "apiUrl": "https://api.github.com/repos/crimera/twitter-apk/releases"
-      },
-      "match": {
-        "strategy": "twitter_piko_variant",
-        "filenamePrefix": "x-piko-material-you-v"
-      }
-    },
-    {
-      "id": "spotify_revanced",
-      "displayName": "Spotify ReVanced",
-      "packageName": "com.spotify.music",
-      "section": "revanced",
-      "enabled": true,
-      "source": {
-        "type": "github_releases",
-        "apiUrl": "https://api.github.com/repos/j-hc/revanced-magisk-module/releases"
-      },
-      "match": {
-        "strategy": "regex_all_apk",
-        "fileRegex": "^spotify-revanced-v([0-9.]+)-all\\.apk$",
-        "versionGroup": 1
-      }
-    },
-    {
-      "id": "microg_revanced",
-      "displayName": "microG ReVanced",
-      "packageName": "app.revanced.android.gms",
-      "section": "revanced",
-      "enabled": true,
-      "conflictGroup": "microg",
-      "source": {
-        "type": "github_releases",
-        "apiUrl": "https://api.github.com/repos/ReVanced/GmsCore/releases"
-      },
-      "match": {
-        "strategy": "microg_revanced_signed"
-      }
-    },
-    {
-      "id": "microg_morphe",
-      "displayName": "microG Morphe",
+      "id": "microg_universal",
+      "displayName": "microG universal",
       "packageName": "app.revanced.android.gms",
       "section": "morphe",
       "enabled": true,
@@ -221,7 +76,52 @@
         "apiUrl": "https://api.github.com/repos/MorpheApp/MicroG-RE/releases"
       },
       "match": {
-        "strategy": "microg_morphe_apk"
+        "strategy": "microg_morphe_universal"
+      }
+    },
+    {
+      "id": "microg_universal_noicon",
+      "displayName": "microG universal No Icon",
+      "packageName": "app.revanced.android.gms",
+      "section": "morphe",
+      "enabled": true,
+      "conflictGroup": "microg",
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/MorpheApp/MicroG-RE/releases"
+      },
+      "match": {
+        "strategy": "microg_morphe_universal_noicon"
+      }
+    },
+    {
+      "id": "microg_specific",
+      "displayName": "microG specific",
+      "packageName": "app.revanced.android.gms",
+      "section": "morphe",
+      "enabled": true,
+      "conflictGroup": "microg",
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/MorpheApp/MicroG-RE/releases"
+      },
+      "match": {
+        "strategy": "microg_morphe_specific"
+      }
+    },
+    {
+      "id": "microg_specific_noicon",
+      "displayName": "microG No Icon",
+      "packageName": "app.revanced.android.gms",
+      "section": "morphe",
+      "enabled": true,
+      "conflictGroup": "microg",
+      "source": {
+        "type": "github_releases",
+        "apiUrl": "https://api.github.com/repos/MorpheApp/MicroG-RE/releases"
+      },
+      "match": {
+        "strategy": "microg_morphe_specific_noicon"
       }
     },
     {
